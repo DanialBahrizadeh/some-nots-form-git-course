@@ -1,0 +1,25 @@
+use git clone to clone an exsisten repo
+
+use git status to see the status 
+
+use git add to add a file and you could use git add . for add all and you might also select specefec file like git add index.html
+
+use git reset to undo the git add or git reset follow by the name of file to undo only theat file use git reset Head~1 to get back and undo the last commit  or you could use git reset follow by the commit id to get back to that specefec commit if you use --hard flag that will not only get back it will also remove the commit
+
+use git log to log all your commits 
+
+use git commit -m to commit and msg also if you use it twic like git commit -m "some commit" commit -m "the description"; the secend one will be description and firstt one will be title also if you use -am it will add commmit only for modiffied files
+
+to make the folder be an github repo you could use git init
+
+to make git know where to push use could make an empty repo then get the ssh then come to terminal and write git remote add origin follow by the git-link
+
+use git push origin (master | main) to push the data and btw to could add the -u flag to make it even better so u not force to use that long command every time and could push by just write git push
+
+use git branch to see all the branches and to know in which branch you are currintly are use the -d flag follow by the name of branch to delete the branch
+
+use git checkout to switch between branches and you colud create branch with flag -b 
+
+use git diff to see the diffrents between branches
+
+use git mearg to mearg to branch localy
